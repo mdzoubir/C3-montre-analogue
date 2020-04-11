@@ -1,4 +1,5 @@
 /* Layout */
+
 .main {
     display: flex;
     padding: 2em;
@@ -12,7 +13,9 @@
     width: 100%;
 }
 
+
 /* Clock styles */
+
 .circle {
     fill: none;
     stroke: #000;
@@ -23,6 +26,7 @@
 .mid-circle {
     fill: #000;
 }
+
 .hour-marks {
     fill: none;
     stroke: #000;
@@ -51,16 +55,22 @@
     stroke-miterlimit: 10;
 }
 
+
 /* Transparent box ensuring arms center properly. */
+
 .sizing-box {
     fill: none;
 }
 
+
 /* Make all arms rotate around the same center point. */
+
+
 /* Optional: Use transition for animation. */
+
 #hour,
 #minute,
 #second {
     transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+    /* transition: transform .5s; */
 }
